@@ -320,7 +320,7 @@
   function buildReceipt() {
       const c = JSON.parse(localStorage.getItem('blp_cart') || '[]');
       if (!c.length) { dom.checkout.receiptStep.innerHTML = '<p>Your cart is empty.</p>'; return; }
-      const items = c.map(i => ({ name: i.product, plan: i.section, duration: i.duration, qty: i.qty, sub: i.unitPrice * i.qty }));
+      const items = c.map(i => ({ name: i.product, plan: i.section, duration: i.duration, qty: i.qty, unit: i.unitPrice, sub: i.unitPrice * i.qty }));
       const total = items.reduce((s, x) => s + x.sub, 0);
 
       if (items.length === 1) {
@@ -345,9 +345,10 @@
           dom.checkout.receipts.rm_total.textContent = formatKyats(total);
       }
       
-      const textLines = items.map(item =>
-          `- ${item.name} (${item.plan} • ${item.duration})${item.qty > 1 ? ` x${item.qty}` : ''}\n  Price: ${formatKyats(item.sub)}`
-      );
+      const textLines = items.map(item => {
+          const unitDisplay = (item.unit || 0).toLocaleString("en-US") + "Ks";
+          return `- ${item.name} (${item.plan} • ${item.duration})\n- ${unitDisplay} x${item.qty}\n  Price: ${formatKyats(item.sub)}`;
+      });
       const clipboardText = textLines.join('\n\n') + `\n-------------------\nTOTAL: ${formatKyats(total)}`;
       dom.checkout.receiptText.value = clipboardText;
   }
