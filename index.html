@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Murf Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Creepster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <button id="menu-btn" class="header-btn" aria-label="Open Menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <img src="https://ik.imagekit.io/dkdlgynlu/20251205_213453_0000.png?updatedAt=1764947178549" alt="The Murf Lab Logo" class="logo-img">
+    
+    <div style="width: 40px;"></div> 
+  </header>
+
+  <div id="nav-overlay" class="nav-overlay">
+    <nav class="nav-sidebar">
+        <div class="sidebar-header">
+            <span class="nav-label">THE MURF LAB</span>
+            <button id="close-menu-btn" class="close-menu-btn">&times;</button>
+        </div>
+        
+        <div class="sidebar-content">
+            <a href="https://t.me/themurflab" class="nav-item" target="_blank" rel="noopener">TELEGRAM</a>
+            <a href="https://www.facebook.com/share/1BY73KmPUR/?mibextid=wwXIfr" class="nav-item" target="_blank" rel="noopener">FACEBOOK</a>
+            <a href="https://www.tiktok.com/@themurflab?_r=1&_t=ZS-921q59Mabrt" class="nav-item" target="_blank" rel="noopener">TIKTOK</a>
+            
+            <div class="nav-divider"></div>
+        </div>
+
+        <a href="https://t.me/kkc_cc" class="btn community-btn-menu sidebar-bottom-btn" target="_blank" rel="noopener">OWNER</a>
+    </nav>
+  </div>
+
+  <main id="home-view" class="view active">
+    
+    <div class="hero-carousel">
+        <div class="hero-slide" style="background-image: url('https://ik.imagekit.io/plkm5ok7p/New%20Project%205%20_AC6C68A_.png');"></div>
+        
+        <div class="hero-slide active" style="background-image: url('https://ik.imagekit.io/plkm5ok7p/New%20Project%206%20_1909305_.png');"></div>
+        
+        <div class="hero-slide" style="background-image: url('https://ik.imagekit.io/plkm5ok7p/Picsart_25-12-08_14-10-22-808.jpg');"></div>
+        
+        <div class="hero-flash-overlay"></div>
+
+        <div class="hero-dots">
+            <div class="dot" data-index="0"></div>
+            <div class="dot active" data-index="1"></div>
+            <div class="dot" data-index="2"></div>
+        </div>
+    </div>
+
+    <div class="fresh-launch-section">
+        <h2>Fresh launch</h2>
+        <p>From casual to formal, The Murf Lab’s <br> best-sellers fit all occasions.</p>
+    </div>
+
+    <div id="shop" class="scroll-anchor"></div>
+    <h2 class="section-title">YOU WEAR THE WIN</h2>
+    
+    <div class="grid">
+      
+      <div class="card tap" data-product-name="No More Wishes(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5739.JPEG?updatedAt=1765126343593" alt="No More Wishes White">
+        </div>
+        <div class="card-info">
+            <p>NO MORE WISHES (WHITE)</p>
+            <span class="price-tag">44,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="No More Wishes(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5741.JPEG?updatedAt=1765126338699" alt="No More Wishes Black">
+        </div>
+        <div class="card-info">
+            <p>NO MORE WISHES (BLACK)</p>
+            <span class="price-tag">44,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Path.01(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5728.JPEG?updatedAt=1765126343656" alt="Path.01 White">
+        </div>
+        <div class="card-info">
+            <p>PATH.01 (WHITE)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Path.01(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5727.JPEG?updatedAt=1765126339349" alt="Path.01 Black">
+        </div>
+        <div class="card-info">
+            <p>PATH.01 (BLACK)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="IMPRNT(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5721.JPEG?updatedAt=1765126343962" alt="IMPRNT White">
+        </div>
+        <div class="card-info">
+            <p>IMPRNT (WHITE)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="IMPRNT(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_5720.JPEG?updatedAt=1765126340069" alt="IMPRNT Black">
+        </div>
+        <div class="card-info">
+            <p>IMPRNT (BLACK)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Star-Gazer Skull Tee(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_4625.JPEG?updatedAt=1765126339591" alt="Star-Gazer Black">
+        </div>
+        <div class="card-info">
+            <p>STAR-GAZER (BLACK)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Star-Gazer Skull Tee(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_4686%20(1).JPEG?updatedAt=1765126343901" alt="Star-Gazer White">
+        </div>
+        <div class="card-info">
+            <p>STAR-GAZER (WHITE)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Echoes of the Fallen(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_4689%20(1).JPEG?updatedAt=1765126343241" alt="Echoes White">
+        </div>
+        <div class="card-info">
+            <p>ECHOES (WHITE)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Echoes of the Fallen(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_4624%20(1).JPEG?updatedAt=1765126339313" alt="Echoes Black">
+        </div>
+        <div class="card-info">
+            <p>ECHOES (BLACK)</p>
+            <span class="price-tag">45,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Resilience Drop(White)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3198%20(1).JPEG?updatedAt=1765126339742" alt="Resilience Drop White">
+        </div>
+        <div class="card-info">
+            <p>RESILIENCE (WHITE)</p>
+            <span class="price-tag">44,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="Resilience Drop(Black)">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3200%20(1).JPEG?updatedAt=1765126339374" alt="Resilience Drop Black">
+        </div>
+        <div class="card-info">
+            <p>RESILIENCE (BLACK)</p>
+            <span class="price-tag">44,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card sold-out tap" data-product-name="Realize the value">
+        <div class="sold-out-badge">OUT OF STOCK</div>
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3202%20(1).JPEG?updatedAt=1765126339679" alt="Realize the value">
+        </div>
+        <div class="card-info">
+            <p>REALIZE THE VALUE</p>
+            <span class="price-tag">42,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="MURF's Take Action Tee">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3036%20(1).JPEG?updatedAt=1765126343812" alt="MURF's Take Action Tee">
+        </div>
+        <div class="card-info">
+            <p>TAKE ACTION TEE</p>
+            <span class="price-tag">42,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card sold-out tap" data-product-name="THE LAST LOOK">
+        <div class="sold-out-badge">OUT OF STOCK</div>
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3558.JPEG" alt="THE LAST LOOK">
+        </div>
+        <div class="card-info">
+            <p>THE LAST LOOK</p>
+            <span class="price-tag">42,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card sold-out tap" data-product-name="BALDWIN 4">
+        <div class="sold-out-badge">OUT OF STOCK</div>
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3199%20(1).JPEG?updatedAt=1765126339659" alt="BALDWIN 4">
+        </div>
+        <div class="card-info">
+            <p>BALDWIN 4</p>
+            <span class="price-tag">42,000 MMK</span>
+        </div>
+      </div>
+
+      <div class="card tap" data-product-name="SPINĘ">
+        <div class="card-image-container">
+            <img src="https://ik.imagekit.io/plkm5ok7p/IMG_3878.JPEG?updatedAt=1765126341918" alt="SPINĘ">
+        </div>
+        <div class="card-info">
+            <p>SPINĘ</p>
+            <span class="price-tag">42,000 MMK</span>
+        </div>
+      </div>
+
+    </div>
+    
+  </main>
+
+  <div id="product-page" class="view"></div>
+
+  <div id="why-buy-overlay" class="explain-overlay">
+    <div class="explain-card">
+      <button class="back-btn" id="why-buy-back-btn">← RETURN</button>
+      <div class="explain-text">
+          <div class="md-h">THE MURF LAB SPECS</div>
+          <div class="md-p">1. Heavyweight GSM 350.</div>
+          <div class="md-p">2. 100% Premium Cotton.</div>
+          <div class="md-p">3. Structured Fit.</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="explain-overlay" class="explain-overlay">
+    <div class="explain-card">
+      <div class="explain-text" id="explain-text"></div>
+      <button class="btn btn-primary explain-ok" id="explain-ok-btn">ACKNOWLEDGE</button>
+    </div>
+  </div>
+
+  <div id="cart-bar" class="cart-bar collapsed">
+    <div class="cart-top">
+      <button id="cart-toggle-btn" class="cart-toggle" title="Expand / Collapse" aria-label="Toggle Cart View">▲</button>
+      <div class="cart-total"><span id="cart-total">0 MMK</span> • <span id="cart-count">0</span> item(s)</div>
+      <div class="cart-actions">
+        <button class="btn btn-secondary btn-sm" id="clear-cart-btn">CLEAR</button>
+        <button class="btn btn-primary btn-sm" id="checkout-btn">CHECKOUT</button>
+      </div>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+  </div>
+
+  <main id="checkout-view" class="view">
+    <div class="checkout-main">
+      <button class="back-btn" id="checkout-back-btn">← RETURN</button>
+
+      <section class="checkout-card" id="note-step">
+        <h2>
+          SYSTEM NOTE<br>
+          <span style="font-weight:normal;font-size:14px;opacity:.8;">READ BEFORE PROCESSING</span>
+        </h2>
+        <div id="note-text" class="note-text"></div>
+        <div class="note-actions">
+          <button class="btn btn-primary" id="note-ok-btn">PROCEED</button>
+        </div>
+      </section>
+
+      <section class="checkout-card" id="receipt-step">
+        <h2>RECEIPT DATA</h2>
+
+        <div id="receipt-single">
+          <div class="kv"><span>Item</span><strong id="r1-item"></strong></div>
+          <div class="kv"><span>Spec</span><strong id="r1-plan"></strong></div>
+          <div class="kv"><span>Size</span><strong id="r1-duration"></strong></div>
+          <div class="kv"><span>Price</span><strong id="r1-price"></strong></div>
+        </div>
+
+        <div id="receipt-multi">
+          <div id="rm-item-list"></div>
+          <div class="kv receipt-total">
+            <span>TOTAL</span>
+            <strong id="rm-total"></strong>
+          </div>
+        </div>
+
+        <div class="receipt-instruction">
+          <p class="burmese-font" style="font-size:12px; line-height:1.6; margin:0; text-align: center;">
+            Copy Dataဆိုတာကိုနှိပ်ပီးNext Phaseဆိုတာကိုနှိပ်လိုက်ရင်Adminစီကိုရောက်သွားပါလိမ့်မယ်။<br>
+            CopyထားတာတေကိုAdminကိုပို့ပေးလိုက်ရင်ရပါပီ။
+          </p>
+        </div>
+
+        <div class="checkout-actions">
+          <button class="btn btn-primary" id="copy-receipt-btn">COPY DATA</button>
+          <a class="btn btn-secondary" id="next-btn" href="https://t.me/kkc_cc" target="_blank" rel="noopener">NEXT PHASE</a>
+        </div>
+
+        <textarea id="receipt-text" class="visually-hidden" aria-hidden="true"></textarea>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
