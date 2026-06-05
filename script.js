@@ -58,6 +58,7 @@
   ========================= */
   const imageFor = { 
     "SPINĘ": "https://ik.imagekit.io/plkm5ok7p/IMG_3878.JPEG?updatedAt=1765126341918",
+    "NOIR": "https://ik.imagekit.io/dkdlgynlu/IMG_0233.JPEG",
     "BALDWIN 4": "https://ik.imagekit.io/plkm5ok7p/IMG_3199%20(1).JPEG?updatedAt=1765126339659",
     "ASCENT 01(Black)": "https://ik.imagekit.io/dkdlgynlu/IMG_20260217_124653_884.jpg?updatedAt=1771309364530",
     "ASCENT 01(White)": "https://ik.imagekit.io/dkdlgynlu/IMG_20260217_124653_827.jpg?updatedAt=1771309364467",
@@ -90,6 +91,7 @@
 
   const productData = { 
     "SPINĘ": { "GSM 350": sizesFor("42,000 MMK") }, 
+    "NOIR": { "GSM 240": sizesFor("54,000 MMK") },
     "BALDWIN 4": { "GSM 350": sizesFor("42,000 MMK") }, 
     "MURF's Take Action Tee": { "GSM 350": sizesFor("42,000 MMK") },
     "Realize the value": { "GSM 350": sizesFor("42,000 MMK") },
