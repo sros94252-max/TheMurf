@@ -17,7 +17,7 @@
 }
 
 :root{
-  --bg-deep: #ffffff; 
+  --bg-deep: #5A1A24; 
   --card: #ffffff; 
   --card-strong: #f4f4f5; 
   --stroke: #e4e4e7; 
@@ -51,7 +51,7 @@ header{
   right:0;
   top:0;
   z-index:20;
-  background: #ffffff; 
+  background: #5A1A24; 
   border-bottom: 1px solid #333;
   padding: 5px 20px; 
   display: flex;
