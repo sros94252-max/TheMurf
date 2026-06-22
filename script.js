@@ -81,7 +81,7 @@
 
   // Explicitly mark these products as sold out to disable buttons
   // while still showing the price.
-  const soldOutRegistry = ["BALDWIN 4", "Realize the value", "THE LAST LOOK"];
+  const soldOutRegistry = ["BALDWIN 4", "SPINĘ", "Resilience Drop(White)", "MURF's Take Action Tee", "Resilience Drop(Black)", "Echoes of the Fallen(Black)",, "Star-Gazer Skull Tee(White)", "Star-Gazer Skull Tee(Black)", "IMPRNT(Black)", "IMPRNT(White)", "Path.01(Black)", "Path.01(White)", "No More Wishes(Black)", "No More Wishes(White)", "ASCENT 01(Black)", "ASCENT 01(White)", "Echoes of the Fallen(White)", "Realize the value", "THE LAST LOOK"];
 
   // Helper to generate sizes for price
   const sizesFor = (price) => [
